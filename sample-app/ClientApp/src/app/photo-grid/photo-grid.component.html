@@ -1,0 +1,8 @@
+<div>Now viewing Album {{albumId}}</div>
+<div *ngIf="!photos"><em>Loading Photo Data ...</em></div>
+<div class="thumbnail-grid">
+    <div *ngFor="let photo of photos" class="image-container">
+        <img src="{{ photo.thumbnailUrl }}">
+        <span>{{ (photo.title.length > 15)? (photo.title | slice:0:15) + '...' : photo.title}}</span>
+    </div>
+</div>

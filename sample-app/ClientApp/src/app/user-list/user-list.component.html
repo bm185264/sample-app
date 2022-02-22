@@ -1,0 +1,10 @@
+<h2>Users</h2>
+
+<h2 *ngIf="selectedUser">{{ selectedUser.name }}</h2>
+
+<div *ngIf="!users"><em>Loading User Data ...</em></div>
+<ol id="user-list">
+    <li *ngFor="let user of users">
+        <a [routerLink]="['view-user/' + user.id]">{{ user.name }}</a>
+    </li>
+</ol>
