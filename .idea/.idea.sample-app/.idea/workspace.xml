@@ -5,7 +5,14 @@
     <projectFile profileName="sample_app">sample-app/sample-app.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba53c827-8b7c-4750-a608-280d827e7681" name="Changes" comment="" />
+    <list default="true" id="ba53c827-8b7c-4750-a608-280d827e7681" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.sample-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.sample-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/sample-app/ClientApp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/ClientApp/src/app/album-panel/album-panel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample-app/ClientApp/src/app/album-panel/album-panel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample-app/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/ClientApp/src/app/photo-grid/photo-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample-app/ClientApp/src/app/photo-grid/photo-grid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/sample-app/ClientApp/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +97,7 @@
       <updated>1645198561673</updated>
       <workItem from="1645198564459" duration="15105000" />
       <workItem from="1645393717593" duration="35442000" />
-      <workItem from="1645475336112" duration="4137000" />
+      <workItem from="1645475336112" duration="5590000" />
     </task>
     <servers />
   </component>

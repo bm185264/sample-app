@@ -1,8 +1,8 @@
-<div>Albums for User {{userId}}</div>
+<h3 class="announcement">Albums for User {{userId}}</h3>
 <div *ngIf="!albums"><em>Loading Album Data ...</em></div>
 <div class="thumbnail-grid">
-    <div *ngFor="let album of albums" class="image-container">
-        <a routerLink="/view-album/{{album.id}}">
+    <div *ngFor="let album of albums">
+        <a routerLink="/view-album/{{album.id}}" class="image-container">
             <img src="{{ album.thumbnail.thumbnailUrl }}">
             <span>{{ (album.title.length > 15)? (album.title | slice:0:15) + '...' : album.title}}</span>
         </a>
